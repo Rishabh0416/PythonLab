@@ -9,8 +9,8 @@ tpl= tpl+('!',)
 print(tpl)
 
 #converting tuple to string
-str = ''.join(tpl)
-print(str)
+s = ''.join(tpl)
+print(s)
 
 #extracting ('b','b') from tuple
 t=tpl[3:5]
